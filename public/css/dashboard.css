@@ -1,0 +1,363 @@
+
+
+#Loading{
+
+
+  width: 100%;
+  height: 100%;
+overflow-x: hidden;
+  position: fixed;
+  z-index: 1000;
+
+background:rgb(9, 123, 9) url(../images/219\ \(1\).svg) no-repeat center;
+
+}
+
+.upload{
+  position: relative;
+  margin: auto;
+  width: 100px;
+  bottom: 25px;
+ 
+}
+.upload img{
+ border:2px solid rgb(18, 255, 18);
+ border-radius: 50%;
+ width: 100px;
+}
+input[type="file"]::-webkit-file-upload-button{
+  cursor: pointer;
+}
+.upload .round{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  border:1px solid green;
+  background: rgb(1, 255, 1);
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.upload .round input[type="file"]{
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+.box-area{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.box-area li{
+  position: absolute;
+display: block;
+  list-style: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 8px;
+background: rgba(255,255,255,0.2);
+animation: animate 20s linear infinite;
+bottom:300px;
+}
+.box-area li:nth-child(1){
+
+left: 86%;
+width: 80px;
+height: 80px;
+animation-delay: 0s;
+
+
+}
+.box-area li:nth-child(2){
+
+  left: 12%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+  
+  
+  }.box-area li:nth-child(3){
+
+      left: 70%;
+      width: 100px;
+      height:100px;
+      animation-delay:0s;
+      
+      
+      }.box-area li:nth-child(4){
+
+          left:42%;
+          width: 150px;
+          height: 150px;
+          animation-delay: 0s;
+          animation-duration: 15s;
+          
+          
+          }.box-area li:nth-child(5){
+
+              left: 65%;
+              width: 40px;
+              height: 40px;
+              animation-delay: 0s;
+              
+              
+              }.box-area li:nth-child(6){
+
+                  left: 15%;
+                  width: 110px;
+                  height: 110px;
+                  animation-delay: 1.5s;
+                  
+                  
+                  }
+             
+
+
+
+
+
+
+  
+
+
+                  @keyframes animate{
+                       0%{
+                          transform: translateY(0) rotate(0deg);
+                          opacity: 1;
+                       }
+                       100%{
+                          transform: translateY(-800px) rotate(360deg);
+                          opacity: 0;
+                       }
+                      
+
+
+
+
+
+
+
+
+
+
+
+                      }
+
+
+
+.dashbtn{
+    color: white;
+    padding: 10px 12px;
+    border: 1px solid green;
+    background: green;
+    border-radius:4px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.343);
+  }
+  .dashbtn:hover{
+    color:green;
+background: transparent;
+transition: 0.6s all;
+  }
+  .dashbtn1{
+    color: white;
+    padding: 10px 12px;
+    border: 1px solid red;
+    background: red;
+    border-radius:4px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.343);
+  }
+  
+  .cart{
+    height: 320px;
+  }
+  .cart h2{
+    padding: 10px;
+    text-align: center;
+    color: green;
+  }
+  .cart p{
+    padding:10px;
+    text-align: center;
+  }
+  .bg1{overflow-Y: scroll;
+
+
+
+}
+.h1{
+    font-size:50px;
+    padding: 30px;
+    text-align: center;
+    color: green;
+}
+.a{
+  background-color: red;
+  width: 100%;
+  position: relative;
+  
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+  padding: 8px;
+  border:1px solid red;
+  border-radius: 5px;
+  box-shadow: 0  0 20px rgba(128, 128, 128, 0.28);
+}
+.a1{
+  background-color:green;
+  color: white;
+  padding: 8px;
+  white-space: nowrap;
+  
+  width: 100%;
+  text-decoration: none;
+  border:1px solid green;
+  border-radius: 5px;
+  box-shadow: 0  0 20px rgba(128, 128, 128, 0.28);
+}
+.a:hover{
+  color: green;
+  border:1px solid green;
+  background-color: transparent;
+  text-decoration: none;
+
+  transition: 0.6s ease all;
+}
+.a:hover{
+  color: red;
+  border:1px solid red;
+  background-color: transparent;
+  text-decoration: none;
+
+  transition: 0.6s ease all;
+}
+
+.a1:hover{
+  color :green;
+  border:1px solid green;
+  background-color: transparent;
+  text-decoration: none;
+
+  transition: 0.6s ease all;
+}
+.h3{
+  color: green;
+  text-align: center;
+font-weight: bolder;
+font-size: 50px;
+  padding: 30px;
+}
+.h4{
+  text-align: center;
+  font-size: 15px;}
+/* }prejttt */
+
+/* preloader */
+
+.register{
+  padding:60px;
+  border: 1px solid rgba(193, 193, 193, 0.757);
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow:0 0 20px rgba(193, 193, 193, 0.508);
+}
+.register form{
+margin: 10px;
+
+  padding: 20px;
+}
+
+.upload{
+  position: relative;
+  margin: auto;
+  width: 100px;
+  bottom: 25px;
+ 
+}
+.upload img{
+ border:2px solid rgb(18, 255, 18);
+ border-radius: 50%;
+ width: 100px;
+}
+input[type="file"]::-webkit-file-upload-button{
+  cursor: pointer;
+}
+.upload .round{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  border:1px solid green;
+  background: rgb(1, 255, 1);
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.upload .round input[type="file"]{
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+  top: 5%;
+}
+.register input{
+  margin: 10px;
+padding: 12px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.46);
+
+
+}
+.register .img{
+  height: auto;
+  padding-top:60px;
+}
+.register select{
+  margin: 10px;
+  padding: 12px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.46);
+
+}
+
+.register button{
+  margin: 10px;
+ width:100% ;
+
+ padding: 10px;
+ color: white;
+ border: 1px solid green;
+ background-color: green;
+ box-shadow: 0 0 20px rgba(128, 128, 128, 0.29);
+}
+
+
+.register h1{
+  text-align: center;
+  padding-bottom: 10px;
+ font-weight: bold;
+ font-size: 50px;
+  color: green;
+}
+.register label{
+color: rgb(165, 165, 165);
+
+  margin-left: 10px;
+}
+.register button:hover{
+  background-color: transparent;
+  transition: 0.6s ease all ;
+  color: green;
+
+
+}
